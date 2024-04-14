@@ -54,6 +54,7 @@ android {
 
 dependencies {
 
+    implementation("androidx.navigation:navigation-runtime-ktx:2.7.7")
     // Room
     val room_version = "2.6.1"
     implementation ("androidx.room:room-ktx:$room_version")
@@ -69,7 +70,8 @@ dependencies {
     val nav_version = "2.5.3"
     implementation("androidx.navigation:navigation-compose:$nav_version")
 
-
+// Swipe
+    implementation( "me.saket.swipe:swipe:1.1.1")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")

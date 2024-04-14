@@ -50,6 +50,7 @@ fun MainTextField(value: String,
             .padding(horizontal = 30.dp)
             .padding(bottom = 15.dp)
         )
+
 }
 
 @Composable
